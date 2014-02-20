@@ -1,0 +1,27 @@
+---
+sdkversion: 4.1.0
+name: TestApp
+version: '1.0'
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator7.0
+  provisionprofile: ''
+  codesignidentity: iPhone Developer
+  entitlements: ''
+  BundleIdentifier: com.rhomobile.testapp
+  BundleURLScheme: testapp
+wp8:
+  productid: d897ef11-7c5f-0131-bb14-44d9873f516b
+android:
+  manifest_template: AndroidManifest.erb
+  version: 2.3.3
+wm:
+  #sdk: "MC3000c50b (ARMV4I)"
+  sdk: "Windows Mobile 6.5.3 Professional DTK (ARMV4I)"
+extensions:
+- rhoconnect-client
+app_type: rhoelements
+capabilities: []
